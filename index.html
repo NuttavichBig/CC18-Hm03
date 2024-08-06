@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homework3</title>
+</head>
+<body>
+        <div class="allpage">
+            <!--Header-->
+            <div class="header">
+                <div class="logo">
+                    <img src="./pics/jobpasscard-logo-nav.png" alt="logo">
+                </div>
+                <nav class="centercont">
+                    <a href="https://www.google.com">ABOUT US</a>
+                    <a href="">PASSARD</a><a class="navtxt" href="">PROFILE</a>
+                </nav>
+                <nav class="loginsection">
+                        <img class="loginicon" src="./pics/search-svgrepo-com.svg" alt="search">
+                    <div class="cart">
+                        <img class="loginicon"src="./pics/cart-shopping-svgrepo-com.svg" alt="cart">
+                        <p>1</p>
+                    </div>
+                    <a href="">LOGIN</a>
+                    <a href="">SIGN UP</a>
+                </nav>
+            </div>
+
+            <!--Center Content-->
+            <div class="content">
+                <p>My Cart</p>
+                <form class="cartinfo">
+                    <div class="prodlist">
+                        <div class="prodinfo">
+                            <img class="delbtn" src="./pics/btn-delete.png" alt="delbtn">
+                            <div class="imgfm">
+                                <img class="infopic" src="./pics/GoogleDocPasscard.png" alt="googledocpass">
+                            </div>
+                            <div class="ordinfo">
+                                <p>Google Docs</p>
+                                <div class="selector">
+                                    <span class="dot dot1"></span>
+                                    <span class="dot dot2"></span>
+                                    <span class="dot dot3"></span>
+                                    <select name="level" id="level">
+                                        <option class="selected" value="1-3"> LV 1-3 </option>
+                                        <option value="2-3"> LV 2-3 </option>
+                                        <option value="3-3"> LV 3-3 </option>
+                                    </select>
+                                </div>
+                                <p class="price">THB 150</p>
+                            </div>
+                        </div>
+                        <div class="prodinfo">
+                            <img class="delbtn" src="./pics/btn-delete.png" alt="delbtn">
+                            <div class="imgfm">
+                                <img class="infopic" src="./pics/GoogleSlidePasscard.png" alt="">
+                            </div>
+                            <div class="ordinfo">
+                                <p>Google Slides</p>
+                                <div class="selector">
+                                    <span class="dot dot1"></span>
+                                    <span class="dot dot2"></span>
+                                    <span class="dot dot3"></span>
+                                    <span class="dot dot4"></span>
+                                    <select name="level" id="level">
+                                        <option value="1-4"> LV 1-4 </option>
+                                        <option class="selected" value="2-4"> LV 2-4 </option>
+                                        <option value="3-4"> LV 3-4 </option>
+                                        <option value="4-4"> LV 4-4 </option>
+                                    </select>
+                                </div>
+                                <p class="price">THB 150</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orderborder">
+                        <div class="order">
+                            <p>Order info</p>
+                            <div class="code">
+                                <div class="subtotal">
+                                    <span>Subtotal</span><span>THB 300</span>
+                                </div>
+                                <div class="coupon">
+                                    <img src="./pics/cupon.png" alt="cupon">
+                                    <input type="text">
+                                     <button>APPLY</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="payment">
+                                <div class="totalpay"><p>Total Payment</p><span>THB 300</span></div>
+                                <button>LOGIN TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
